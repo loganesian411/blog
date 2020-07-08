@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+**General posts will appear below. Topic specific posts in the various tabs up top. Thanks for stopping by!**

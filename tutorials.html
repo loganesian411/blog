@@ -1,0 +1,25 @@
+---
+layout: page
+title: Tutorials
+permalink: /tutorials/
+---
+
+<p>On this page, you can find various software engineering or otherwise general code development tutorials. I'll be writing one of these every time I work through something and feel a need to take notes. I can't guarantee the accuracy of the content nor that it will be comprehensive on the topic. If there is a glaring issues, please feel free to reach out via <a href="https://github.com/loganesian411/blog/issues">github issues</a>.</p>
+
+<ul class="post-list">
+  {% assign tutorials_by_date = (site.tutorials | sort: "date") | reverse %}
+  {%- for tutorial in tutorials_by_date -%}
+  <li>
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    <span class="post-meta">{{ tutorial.date | date: date_format }}</span>
+    <h3>
+      <a class="post-link" href="{{ tutorial.url | relative_url }}">
+        {{ tutorial.title | escape }}
+      </a>
+    </h3>
+    {%- if site.show_excerpts -%}
+      {{ tutorial.excerpt }}
+    {%- endif -%}
+  </li>
+  {%- endfor -%}
+</ul>

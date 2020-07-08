@@ -23,8 +23,7 @@ title: Lucine's Unsolicited Blog
 description: >- # this means to ignore newlines until "baseurl:"
   Joining the ranks of thousands who write blogs during their PhD in the hopes
   that some of my trials and tribulations will be helpful to others. Also
-  because I'll benefit from some form of documentation through this process.
-  More about me at lucineoganesian.com.
+  because I'll benefit from some form of documentation throughout my studies.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://loganesian411.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: loganesian
@@ -36,6 +35,12 @@ plugins:
   - jekyll-archives
   - jekyll-feed
   - jekyll-seo-tag
+
+# Collections
+collections_dir: categories 
+collections:
+  tutorials:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
