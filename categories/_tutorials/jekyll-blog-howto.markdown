@@ -14,4 +14,4 @@ url: "https://loganesian411.github.io" # the github pages url.
 {% endhighlight %}
 + Lastly I updated my Gemfile because the comments in it told me too. But, unclear if this was necessary. The [gemfile](https://github.com/loganesian411/blog/blob/gh-pages/Gemfile#L13) provides instructions on what changes you need to make.
 
-I'll be playing around with the site structure and using collections and pages in a way to help organize my thoughts coherently. Feel free to check out the [source](https://github.com/loganesian411/blog) directly.
+I'll be playing around with the site structure and using collections and pages in a way to help organize my thoughts coherently. Feel free to check out the [source](https://github.com/loganesian411/blog) directly. Also a good [tutorial](https://medium.com/@xiang_zhou/how-to-add-a-favicon-to-your-jekyll-site-2ac2179cc2ed) for updating the favicon for your webpage.
