@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Setting up a Jekyll Blog on Github Pages"
+date:   2020-07-07 00:17:08 -0700
 ---
 
 I have experience working with wordpress.com in terms of a blogging site, but I have a love/hate relationship with wordpress. I think it does help streamline a lot of the process if you just want a simple interface for publishing posts. But the moment you want to get more involved, the interface isn't super fantastic (in my opinion), so I decided to explore my options. I didn't want to build a site from scratch because I'm not too keen on web development so I wanted something that could work fairly easily right out of the box. A friend had recommended [Jekyll](https://github.com/jekyll/jekyll) and I personally really liked that it could integrate with Github pages. So I figured I'd try it out.
